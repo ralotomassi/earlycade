@@ -10,23 +10,41 @@ def make_button_image(game_zip_name,buttons):
     # Grid layout configuration
     rows = 2
     cols = 3
-    circle_radius = 125
-    text_offset_y = 50  # Vertical offset below each circle for text
+    circle_radius = 175
+    text_offset_y = 75  # Vertical offset below each circle for text
     font = cv2.FONT_HERSHEY_SIMPLEX
-    font_scale = 1.0
+    font_scale = 2.0
     font_color = (255, 255, 255)  # White text
-    thickness_text = 2
+    thickness_text = 5
+
 
     # Compute positions for the 2x3 grid
     x_step = width // (cols + 1)
     y_step = height // (rows + 1)
 
+    #set the button positions
+    circle_diameter = circle_radius * 2
+    y_distance = 360 - ((2/3) * circle_diameter)
+    y1 = y_distance + (circle_diameter/2)
+    y2 = (y_distance * 2) + circle_diameter + circle_radius
+
+    x_distance = 480 - ((3/4) * circle_diameter)
+    x1 = x_distance + circle_radius
+    x2 = (2 * x_distance) + circle_diameter + circle_radius
+    x3 = (3 * x_distance) + (2 * circle_diameter) + circle_radius
+    #x_positions = [1920/4,1920/2,1920-(1920/4)]
+    #y_positions = [1080/3,1080-(1080/3)]
+    x_positions = [x1,x2,x3]
+    y_positions = [y1,y2]
+
     idx = 0
     for r in range(rows):
         for c in range(cols):
             # Compute center point for each circle
-            center_x = (c + 1) * x_step
-            center_y = (r + 1) * y_step - text_offset_y
+            #center_x = (c + 1) * x_step
+            #center_y = (r + 1) * y_step - text_offset_y
+            center_x = int(x_positions[c])
+            center_y = int(y_positions[r])
 
             # Add team text underneath
             text = buttons[idx]
@@ -50,6 +68,13 @@ def make_button_image(game_zip_name,buttons):
             text_y = center_y + circle_radius + text_offset_y
             
             cv2.putText(image, text, (text_x, text_y), font, font_scale, font_color, thickness_text)
+
+            #write the button label
+            text_size = cv2.getTextSize("A", font, font_scale, thickness_text)[0]
+            x_text_pos = center_x - (text_size[0]//2)
+            button_label = [["A","X","L"],
+                           ["B","Y","R"]]
+            cv2.putText(image, button_label[r][c],(x_text_pos,center_y), font, font_scale, font_color, thickness_text)
             
     # Save or display the image
     gamename = game_zip_name.replace(".zip","")
