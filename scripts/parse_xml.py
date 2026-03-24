@@ -4,9 +4,13 @@
 
 import cv2
 import xml.etree.ElementTree as et
+import os
 
 #constants
-MEDIA_DIR = "/home/pi/.emulationstation/downloaded_media/"
+MEDIA_DIR = os.environ["MEDIA_DIR"]
+INSTRUCTION_DIR = os.environ["INSTRUCTION_DIR"]
+PIEMARQUEE_DIR= os.environ["PIEMARQUEE_DIR"]
+CUSTOM_DIR = os.environ["CUSTOM_DIR"]
 
 def convertMarquee(from_image,to_image):
 	image = cv2.imread(from_image)
@@ -66,17 +70,16 @@ def getzipname(fullpath):
 def makeMarqueeWithCategory(button_category,gamename,system_name):
 	#remove the zip from the game name
 	gamename = gamename.replace(".zip","")
-	instruction_path = "/home/pi/PieMarquee2/marquee/instruction/"
-	marquee_path = "/home/pi/PieMarquee2/marquee/" + system_name + "/"
+	#instruction_path = "/home/pi/PieMarquee2/marquee/instruction/"
+	marquee_path = PIEMARQUEE_DIR + system_name + "/"
 
 	#instruction line
-	instruct_line = instruction_path  + button_category + ".png"
+	instruct_line = INSTRUCTION_DIR  + button_category + ".png"
 	
 	#marquee line
 	marquee_line = marquee_path + gamename + ".png"
 
-	custom_file_name = "/home/pi/PieMarquee2/marquee/custom/" + gamename + ".txt"
-	custom_file_name = "../custom/" + gamename + ".txt"
+	custom_file_name = os.environ["CUSTOM_DIR"] + gamename + ".txt"
 	custom_file = open(custom_file_name,'w')
 	custom_file.write(instruct_line + '\n')
 	custom_file.write(marquee_line + '\n')
@@ -85,22 +88,20 @@ def makeMarqueeWithCategory(button_category,gamename,system_name):
 def createCustomMarquee(gamename,system_name,button_category = "none"):
 	#remove the zip from the game name
 	gamename = gamename.replace(".zip","")
-	instruction_path = "/home/pi/PieMarquee2/marquee/instruction/"
-	marquee_path = "/home/pi/PieMarquee2/marquee/" + system_name + "/"
+	marquee_path = PIEMARQUEE_DIR + system_name + "/"
 	
 	#use the category if it exists
 	if button_category == "none":
 		#instruction line
-		instruct_line = instruction_path  + gamename + "_buttons.png"
+		instruct_line = INSTRUCTION_DIR  + gamename + "_buttons.png"
 	else:
 		#instruction line
-		instruct_line = instruction_path  + button_category + ".png"
+		instruct_line = INSTRUCTION_DIR  + button_category + ".png"
 	
 	#marquee line
 	marquee_line = marquee_path + gamename + ".png"
 
-	custom_file_name = "/home/pi/PieMarquee2/marquee/custom/" + gamename + ".txt"
-	custom_file_name = "../custom/" + gamename + ".txt"
+	custom_file_name = CUSTOM_DIR + gamename + ".txt"
 	custom_file = open(custom_file_name,'w')
 	custom_file.write(instruct_line + '\n')
 	custom_file.write(marquee_line + '\n')
@@ -170,6 +171,10 @@ def fixgamelist(xmlfile,system_name):
 		new_element = replaceElementText(igame,"video",video_dir + newname + ".mp4")
 		igame = new_element[0]
 		mvscript.write( new_element[1])
+
+		#create line to rename the marquees
+		piemarquee_dir = PIEMARQUEE_DIR + system_name + "/"
+		mvscript.write('mv "' + piemarquee_dir + oldname + '.png"' + ' ' + piemarquee_dir + newname + '.png\n')
 		
 		print (newname + '\n')
 		old_path = path.text
@@ -364,11 +369,11 @@ def getTextGamelist(xml_file):
 	return(gamelist)
 
 def addButtonsFromSystem(system_name):
-    xml_file = "../xml/gamelist_" + system_name + ".xml"
+    xml_file = XML_DIR + "gamelist_" + system_name + ".xml"
     print(f"Using XML file: {xml_file}")
 
 	#make the button config file name
-    button_config_xml = "../xml/button_config.xml"
+    button_config_xml = XML_DIR + "button_config.xml"
 
     #get the file list from the xml
     filelist = getTextGamelist(xml_file)
