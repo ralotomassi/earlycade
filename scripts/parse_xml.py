@@ -4,9 +4,20 @@
 
 import cv2
 import xml.etree.ElementTree as et
+import os
 
 #constants
-MEDIA_DIR = "/home/pi/.emulationstation/downloaded_media/"
+MEDIA_DIR = os.environ["MEDIA_DIR"]
+INSTRUCTION_DIR = os.environ["INSTRUCTION_DIR"]
+PIEMARQUEE_DIR= os.environ["PIEMARQUEE_DIR"]
+CUSTOM_DIR = os.environ["CUSTOM_DIR"]
+XML_DIR = os.environ["XML_DIR"]
+GAMELIST_DIR = os.environ["GAMELIST_DIR"]
+NONE = 0
+HORIZONTAL = 1
+VERTICAL  = 2
+BOTH = 3
+
 
 def convertMarquee(from_image,to_image):
 	image = cv2.imread(from_image)
@@ -66,17 +77,16 @@ def getzipname(fullpath):
 def makeMarqueeWithCategory(button_category,gamename,system_name):
 	#remove the zip from the game name
 	gamename = gamename.replace(".zip","")
-	instruction_path = "/home/pi/PieMarquee2/marquee/instruction/"
-	marquee_path = "/home/pi/PieMarquee2/marquee/" + system_name + "/"
+	#instruction_path = "/home/pi/PieMarquee2/marquee/instruction/"
+	marquee_path = PIEMARQUEE_DIR + system_name + "/"
 
 	#instruction line
-	instruct_line = instruction_path  + button_category + ".png"
+	instruct_line = INSTRUCTION_DIR  + button_category + ".png"
 	
 	#marquee line
 	marquee_line = marquee_path + gamename + ".png"
 
-	custom_file_name = "/home/pi/PieMarquee2/marquee/custom/" + gamename + ".txt"
-	custom_file_name = "../custom/" + gamename + ".txt"
+	custom_file_name = os.environ["CUSTOM_DIR"] + gamename + ".txt"
 	custom_file = open(custom_file_name,'w')
 	custom_file.write(instruct_line + '\n')
 	custom_file.write(marquee_line + '\n')
@@ -85,25 +95,24 @@ def makeMarqueeWithCategory(button_category,gamename,system_name):
 def createCustomMarquee(gamename,system_name,button_category = "none"):
 	#remove the zip from the game name
 	gamename = gamename.replace(".zip","")
-	instruction_path = "/home/pi/PieMarquee2/marquee/instruction/"
-	marquee_path = "/home/pi/PieMarquee2/marquee/" + system_name + "/"
+	marquee_path = PIEMARQUEE_DIR + system_name + "/"
 	
 	#use the category if it exists
 	if button_category == "none":
 		#instruction line
-		instruct_line = instruction_path  + gamename + "_buttons.png"
+		instruct_line = INSTRUCTION_DIR  + gamename + "_buttons.png"
 	else:
 		#instruction line
-		instruct_line = instruction_path  + button_category + ".png"
-	
+		instruct_line = INSTRUCTION_DIR  + button_category + ".png"
+
 	#marquee line
 	marquee_line = marquee_path + gamename + ".png"
 
-	custom_file_name = "/home/pi/PieMarquee2/marquee/custom/" + gamename + ".txt"
-	custom_file_name = "../custom/" + gamename + ".txt"
+	custom_file_name = CUSTOM_DIR + gamename + ".txt"
 	custom_file = open(custom_file_name,'w')
-	custom_file.write(instruct_line + '\n')
 	custom_file.write(marquee_line + '\n')
+	custom_file.write(instruct_line + '\n')
+	custom_file.write(INSTRUCTION_DIR  + "gameexit.png"  + '\n')
 	custom_file.close()
 
 def replaceElementText(parent,child,new_text):
@@ -170,6 +179,10 @@ def fixgamelist(xmlfile,system_name):
 		new_element = replaceElementText(igame,"video",video_dir + newname + ".mp4")
 		igame = new_element[0]
 		mvscript.write( new_element[1])
+
+		#create line to rename the marquees
+		piemarquee_dir = PIEMARQUEE_DIR + system_name + "/"
+		mvscript.write('mv "' + piemarquee_dir + oldname + '.png"' + ' ' + piemarquee_dir + newname + '.png\n')
 		
 		print (newname + '\n')
 		old_path = path.text
@@ -213,6 +226,8 @@ def listgames(xml_file_name):
 		#add the game file to a list
 		path = igame.find("path")
 		pathlist.append(path.text)
+
+		print(gamename + "     " + path.text)
 		
 	file_list.close()
 	print(f"Games have been written to {file_list_name}")
@@ -222,6 +237,90 @@ def removePath(pathAndFile):
 	pos = pathAndFile.rfind("/")
 	fileName = pathAndFile[pos + 1:]
 	return(fileName)
+
+def addButtonConfigurationToElement(root,buttons):
+	
+	print(f"Adding buttons for global configuration")
+	buttona = et.SubElement(root,"a_config")
+	buttona.text = buttons[0]
+
+	buttonb = et.SubElement(root,"b_config")
+	buttonb.text = buttons[1]
+
+	buttonx = et.SubElement(root,"x_config")
+	buttonx.text = buttons[2]
+
+	buttony = et.SubElement(root,"y_config")
+	buttony.text = buttons[3]
+
+	buttonl = et.SubElement(root,"l_config")
+	buttonl.text = buttons[4]
+
+	buttonr = et.SubElement(root,"r_config")
+	buttonr.text = buttons[5]
+
+	return(root)
+
+def addDirectionalConfigToElement(root,joysticks,direction):
+
+	print(f"Adding joysticks for global configuration")
+	#add the directional tag 
+	directional_element = et.SubElement(root,"directional")
+
+	#add the sub elements
+	type_element = et.SubElement(directional_element,"type")
+	type_element.text = direction
+
+	up_element = et.SubElement(directional_element,"up")
+	up_element.text =joysticks[0]
+
+	down_element = et.SubElement(directional_element,"right")
+	down_element.text = joysticks[1]
+
+	left_element = et.SubElement(directional_element,"down")
+	left_element.text = joysticks[2]
+
+	right_element = et.SubElement(directional_element,"left")
+	right_element.text = joysticks[3]
+
+	return root
+
+def addDirectionalImageTypeToXML(joysticks,buttons,typename,direction):
+	#this routine takes the passed parameters and adds a directional instruction
+	#image to the global type xml file
+	
+	#open the image type configuration xml and parse the tree
+	config_file_name = XML_DIR + "global_button_config.xml"
+	button_config = et.parse(config_file_name)
+
+	#get the root element
+	theRoot = button_config.getroot()
+
+	print(f"Adding config type to global configuration")
+	configuration_element = et.SubElement(theRoot,"configuration") 
+	global_config_name = et.SubElement(configuration_element,"typename")
+	global_config_name.text = typename
+	
+	#add the button configuration to the element
+	configuration_element = addButtonConfigurationToElement(configuration_element,buttons)
+
+	#if necassary, add the directional information to element
+	if (direction != "none"):
+		configuration_element = addDirectionalConfigToElement(configuration_element,joysticks,direction)
+
+	custom_file_created_element = et.SubElement(configuration_element,"custom_file_created")
+	custom_file_created_element.text = "false"
+
+	#save the new file
+	tree = et.ElementTree(theRoot)
+	tree.write(XML_DIR + "global_button_config.xml", encoding='utf-8', xml_declaration=True)
+	print(f"Udated {XML_DIR}{config_file_name}")
+
+def addGlobalButtonType(buttons,typename):
+	#this routine will add a global button config type to the xml this is
+	#specifically used for images with buttons only and no joystick image
+	joysticks = ["","","",""]
+	root = addDirectionalImageTypeToXML(joysticks,buttons,typename,"none")
 
 def addGamesToRoot(root,filelist,system_name):
 	numgames = len(filelist)
@@ -274,26 +373,43 @@ def addGamesToRoot(root,filelist,system_name):
 
 			buttonConfigType = et.SubElement(game_element,"config_type")
 			buttonConfigType.text = "none"
+
+			buttonConfigType = et.SubElement(game_element,"directional")
+			buttonConfigType.text = "none"
+
+			buttonConfigType = et.SubElement(game_element,"image")
+			buttonConfigType.text = "none"
+
+			buttonConfigType = et.SubElement(game_element,"custom_file_created")
+			buttonConfigType.text = "false"
+
 	return(root)
 
 def addElementToButtonConfig(newElement,newValue = "none"):
 	#open the button config and add the element
 	#read the gamelist
-	button_config = et.parse("button_configs.xml")
+	button_config = et.parse(XML_DIR + "button_config.xml")
 
 	theRoot = button_config.getroot()
 
 	print(theRoot.tag)
 
-	#get all the games
-	all_games = theRoot.findall("game")
+	#get all the systems
+	all_systems = theRoot.findall("system")
 
-	#loop thru games and add element
-	for igame in all_games:
-		addElement = et.SubElement(igame,newElement)
-		addElement.text = newValue
+	for isystem in all_systems:
+
+		#get all the games
+		all_games = isystem.findall("game")
+
+		#loop thru games and add element
+		for igame in all_games:
+			addElement = et.SubElement(igame,newElement)
+			addElement.text = newValue
+			updated_system = all_systems.append(addElement)
 	
-	button_config.write("button_configs.xml", encoding='utf-8', xml_declaration=True)
+	button_config.write(XML_DIR + "button_config.xml", encoding='utf-8', xml_declaration=True)
+	print(f"Updated {XML_DIR}button_config.xml")
 
 def formatNewXml(button_config_xml,system_name):
 
@@ -364,11 +480,11 @@ def getTextGamelist(xml_file):
 	return(gamelist)
 
 def addButtonsFromSystem(system_name):
-    xml_file = "../xml/gamelist_" + system_name + ".xml"
+    xml_file = XML_DIR + "gamelist_" + system_name + ".xml"
     print(f"Using XML file: {xml_file}")
 
 	#make the button config file name
-    button_config_xml = "../xml/button_config.xml"
+    button_config_xml = XML_DIR + "button_config.xml"
 
     #get the file list from the xml
     filelist = getTextGamelist(xml_file)
@@ -396,5 +512,57 @@ def addButtonsFromSystem(system_name):
     formatNewXml(button_config_xml,system_name)
     print(f"Blank button Config for {system_name} is created.\n")
 
+def updateTagTextForGame(btn_cfg, gameName, tag, newText):
+	#this routine will search the xml file that has the button_xml format
+	#for the [gameName] and change the [tag] value to [newText]
+	
+	#open the button config and add the new text
+	#read the gamelist
+    button_config = et.parse(XML_DIR + btn_cfg)
+
+    theRoot = button_config.getroot()
+
+    print(theRoot.tag)
+
+	#get the element with filename = gamename
+	#search recursively("//") for all games with filename attribute equal to gameName
+    findString = ".//game[@filename='" + gameName + "']"
+    print(f"The find string is {findString}")
+    element = theRoot.find(findString)
+
+    #add the [newText] to the [tag]
+    tagElement = element.find(tag)
+    tagElement.text = newText
+        
+    button_config.write(XML_DIR + btn_cfg, encoding='utf-8', xml_declaration=True)
+    print(f"Added {newText} to {tag} for {gameName}")
+
+def findgame(game_zip_name,xml_file):
+	#this routine will search the xml file for the game zip name
+    #because the paths may vary, this routine will strip the path names
+    #and do a brute force search
+	#print(f"parsing xml file {xml_file}")
+    
+    #strip the path from the passed game name 
+    game_to_search_for = removePath(game_zip_name)
+    
+    gamesdb = et.parse(xml_file)
+    theRoot = gamesdb.getroot()
+    
+    #get all the games
+    allgames = theRoot.findall('game') #findall() gets all direct children with the tag 'game'
+    numgames = len(allgames)
+
+    found_game = False
+    for igame in allgames: 
+        #add the game file to a list
+        path = igame.find("path")
+        zip_name = removePath(path.text)
+        
+        #compare the names
+        if (game_to_search_for == zip_name):
+            found_game = True 
+
+    return found_game
 
 
