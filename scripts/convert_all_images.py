@@ -7,10 +7,10 @@ import xml.etree.ElementTree as et
 import os
 
 def convertMarquee(from_image,to_image):
-	image = cv2.imread(from_image)
-	if image is None:
+        image = cv2.imread(from_image)
+        if image is None:
                 print(f"Error getting {from_image}\n")
-	else:
+        else:
                 print(f"{from_image} loaded successfully")
                 #now converth the image to the 4:3 format
                 resized_image = cv2.resize(image,(1024,768))
@@ -37,11 +37,11 @@ listSystem.append("nes")
 listSystem.append("snes")
 listSystem.append("sega32x")
 
-marquee_dir = "/home/pi/PieMarquee2/marquee/"
+#marquee_dir = "/home/pi/PieMarquee2/marquee/"
 
 def convertAllSystemImages(system_name,target_dir):
         #read the gamelist
-        gamelist_dir = "/home/pi/.emulationstation/gamelists/" + system_name +"/"
+        gamelist_dir = GAMELIST_DIR + system_name +"/"
         gamelist_xml = gamelist_dir + "gamelist.xml"
         gamelist = et.parse(gamelist_xml)
 
@@ -65,7 +65,7 @@ def convertAllSystemImages(system_name,target_dir):
 
 for system in listSystem:
 	#make the target directory 
-	system_marquee_dir = marquee_dir + system
+	system_marquee_dir = PIEMARQUEE_DIR + system
 	if not os.path.exists(system_marquee_dir):
 		os.mkdir(system_marquee_dir)
 		print(f"Created {system_marquee_dir}")
@@ -74,7 +74,7 @@ for system in listSystem:
 
 	#read the gamelist file and get each game
 	convertAllSystemImages(system,system_marquee_dir)
-	gamelist_dir = "/home/pi/.emulationstation/gamelists/" + system +"/"
+	gamelist_dir = GAMELIST_DIR + system +"/"
 	convertAllSystemImages(system,system_marquee_dir)
 
 #for igame in gamelist:

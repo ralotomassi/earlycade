@@ -1,12 +1,8 @@
 #!/usr/bin/python3
-'''This script will read the corresponding gamelist xml file from
-the ../xml/ folder and make a text file listing the games'''
+'''This script will take the gamelist xml file and sytem name and
+create an updated xml gamelist and a scipt to rename files to  new filenames'''
 import parse_xml as pxml
-import xml.etree.ElementTree as et
 import sys
-
-#constants
-XML_DIR = "/home/pi/RetroPie/xml/"
 
 system_name = "NoSystemDefined"
 #read the system name from the command line
@@ -18,8 +14,8 @@ else:
     print("system name needs to be used")
     exit
 
-xml_file = XML_DIR + "gamelist_" + system_name + ".xml"
+xml_file = pxml.XML_DIR + "gamelist_" + system_name + ".xml"
 print(f"Using XML file: {xml_file}\n")
 
-pxml.listgames(xml_file)
-print(f"Games from {xml_file} are listed.\n")
+pxml.fixgamelist(xml_file,system_name)
+print(f"Games from {xml_file} are processed.\n")

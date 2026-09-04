@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 '''This script will read the corresponding gamelist xml file from
 the ../xml/ folder and make a blank button configuration
 for the associated system'''
@@ -19,9 +20,8 @@ else:
 all_systems = []
 if system_name == "all":
     all_systems = [
-                   "mame",
+                   "arcade",
                    "neogeo",
-                   "fba",
                    "nes",
                    "sega32",
                    "atari",

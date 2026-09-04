@@ -9,7 +9,7 @@ gamelist = gamefile.readlines()
 gamefile.close()
 
 system_name = "mame_libetro"
-image_dir = "/home/pi/PieMarquee2/marquee/arcade/"
+image_dir = PIEMARQUEE_DIR = "arcade/"
 for igame in gamelist:
 	#remove the "-image.jpg"
 	igame = (igame.replace("-image.jpg","")).strip()
