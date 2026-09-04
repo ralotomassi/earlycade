@@ -1,0 +1,1442 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Button_Config>
+<system count="85" systemname="arcade"><game filename="1942.zip">
+		<name>1942</name>
+		<a_config>loop</a_config>
+		<b_config>fire</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+		<directional>
+			<type>none</type>
+			<up />
+			<down />
+			<left />
+			<right />
+		</directional>
+		<image>none</image>
+		<custom_file_created>true</custom_file_created>
+		<has34>no</has34></game>
+	<game filename="openice.zip">
+		<name>2 On 2 Open Ice Challenge</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>open_ice_1_2</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="alien3.zip">
+		<name>Alien 3 : The Gun</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="aliensyn.zip">
+		<name>Alien Syndrome</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>dshoot</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="area51.zip">
+		<name>Area 51</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="avengrgs.zip">
+		<name>Avengers In Galactic Storm</name>
+		<a_config>Fast Punch</a_config>
+		<b_config>Fast Kick</b_config>
+		<x_config>Strong Punch</x_config>
+		<y_config>Strong Kick</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="borntofi.zip">
+		<name>Born To Fight</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="btime.zip">
+		<name>BurgerTime</name>
+		<a_config>off</a_config>
+		<b_config>Attack</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="dino.zip">
+		<name>Cadillacs And Dinosaurs</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>beat_em_up</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="captaven.zip">
+		<name>Captain America And The Avengers</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>beatup</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="claypign.zip">
+		<name>Clay Pigeon</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="DD_Tower_of_Doom_ROMs.zip">
+		<name>DD_Tower_of_Doom_ROMs</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="dkongjr.zip">
+		<name>Donkey Kong Junior</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>djump</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="ddragonu.zip">
+		<name>Double Dragon</name>
+		<a_config>Punch</a_config>
+		<b_config>Kick</b_config>
+		<x_config>Jump</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="doubledr.zip">
+		<name>Double Dragon VS</name>
+		<a_config>Light Punch</a_config>
+		<b_config>Light Kick</b_config>
+		<x_config>Power Punch</x_config>
+		<y_config>Spinning Kick</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="ddsom.zip">
+		<name>Dungeons And Dragons - Shadow Over Mystara</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>d_and_d_1_2</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="elevator.zip">
+		<name>Elevator Action</name>
+		<a_config>shoot</a_config>
+		<b_config>off</b_config>
+		<x_config>jump</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="gijoe.zip">
+		<name>G.i. Joe</name>
+		<a_config>shoot</a_config>
+		<b_config>off</b_config>
+		<x_config>bomb</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>gijoe</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="galaxian.zip">
+		<name>Galaxian</name>
+		<a_config>off</a_config>
+		<b_config>Fire</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="gbusters.zip">
+		<name>Gang Busters</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>dshoot</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="gauntlet.zip">
+		<name>Gauntlet</name>
+		<a_config>fire</a_config>
+		<b_config>off</b_config>
+		<x_config>magic</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="ga2.zip">
+		<name>Golden Axe: The Revenge of Death Adder</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>golden_axe_1_2</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="gyrussce.zip">
+		<name>Gyruss</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>dshoot</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="joust.zip">
+		<name>Joust</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>djump</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="jpark.zip">
+		<name>Jurassic Park</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="knights.zip">
+		<name>Knights Of The Round</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>beatup</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="le2.zip">
+		<name>Lethal Enforcers II: Gun Fighters</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mmatrix.zip">
+		<name>Mars Matrix - Hyper Solid Shooting</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>dshoot</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mshu.zip">
+		<name>Marvel Super Heroes</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>sf2_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mshvsfu.zip">
+		<name>Marvel Super Heroes Vs. Street Fighter</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>sf2_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mvscu.zip">
+		<name>Marvel Vs. Capcom - Clash Of Super Heroes</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>sf2_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mk.zip">
+		<name>Mortal Kombat</name>
+		<a_config>High Punch</a_config>
+		<b_config>Low Punch</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>High Kick</l_config>
+		<r_config>Low Kick</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mk2.zip">
+		<name>Mortal Kombat 2</name>
+		<a_config>High Punch</a_config>
+		<b_config>Low Punch</b_config>
+		<x_config>Block</x_config>
+		<y_config>off</y_config>
+		<l_config>High Kick</l_config>
+		<r_config>Low Kick</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mk3.zip">
+		<name>Mortal Kombat 3</name>
+		<a_config>High Punch</a_config>
+		<b_config>Low Punch</b_config>
+		<x_config>Block</x_config>
+		<y_config>Run</y_config>
+		<l_config>High Kick</l_config>
+		<r_config>Low Kick</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="narc.zip">
+		<name>NARC</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>narc</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="nss.zip">
+		<name>nss</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>smashtv</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="pacman.zip">
+		<name>Pac-man</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>direc</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="paperboy.zip">
+		<name>Paperboy</name>
+		<a_config>off</a_config>
+		<b_config>Throw</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="popeye.zip">
+		<name>Popeye</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>popeye</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="punchout.zip">
+		<name>Punch-out!!</name>
+		<a_config>Left Punch</a_config>
+		<b_config>off</b_config>
+		<x_config>Right Punch</x_config>
+		<y_config>off</y_config>
+		<l_config>Knockout blow</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="qbert.zip">
+		<name>Q-bert</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>direc</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="rallyx.zip">
+		<name>Rally X</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>rallyx</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="jedi.zip">
+		<name>Return Of The Jedi</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="robotron.zip">
+		<name>Robotron: 2084</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>robotron</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="slammast.zip">
+		<name>Saturday Night Slam Masters</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>sat_night_slam_1_2</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="gaiden.zip">
+		<name>Shadow Warriors</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="shinobi.zip">
+		<name>Shinobi</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>shinobi_beta</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="simpsons.zip">
+		<name>Simpsons, The</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>beatup</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="slyspy.zip">
+		<name>Sly Spy</name>
+		<a_config>shoot</a_config>
+		<b_config>off</b_config>
+		<x_config>jump</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="smashtv.zip">
+		<name>Smash T.V.</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>smashtv</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="splatter.zip">
+		<name>Splatter House</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>beatup</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="starwars.zip">
+		<name>Star Wars</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>dshoot</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="stargate.zip">
+		<name>Stargate</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>stargate</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="sgunner.zip">
+		<name>Steel Gunner</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="sf2.zip">
+		<name>Street Fighter 2 - The World Warrior</name>
+		<a_config>Light Punch</a_config>
+		<b_config>Light Kick</b_config>
+		<x_config>Medium Punch</x_config>
+		<y_config>Mediunm Kick</y_config>
+		<l_config>Strong Punch</l_config>
+		<r_config>Strong Kick</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="sf2ce.zip">
+		<name>Street Fighter 2' - Champion Edition</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>sf2_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="sfa.zip">
+		<name>Street Fighter Alpha - Warriors' Dreams</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>sf2_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="ssriders.zip">
+		<name>Sunset Riders</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>beatup</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="ssf2.zip">
+		<name>Super Street Fighter 2 - The New Challengers</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>sf2_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="tapper.zip">
+		<name>Tapper</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>tapper</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="rbtapper.zip">
+		<name>Tapper</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>tapper</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="tmnt.zip">
+		<name>Teenage Mutant Ninja Turtles</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>beatup</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="tmnt2.zip">
+		<name>Teenage Mutant Ninja Turtles - Turtles In Time</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>beatup</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="tektagt.zip">
+		<name>Tekken Tag Tournament</name>
+		<a_config>Left Punch</a_config>
+		<b_config>Left Kick</b_config>
+		<x_config>Right Punch</x_config>
+		<y_config>Right Kick</y_config>
+		<l_config>off</l_config>
+		<r_config>Tag</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="trackfld.zip">
+		<name>Track &amp; Field</name>
+		<a_config>off</a_config>
+		<b_config>Run</b_config>
+		<x_config>off</x_config>
+		<y_config>Jump/Throw</y_config>
+		<l_config>off</l_config>
+		<r_config>Run</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="motorace.zip">
+		<name>MotoRace USA</name>
+		<a_config>Breaks</a_config>
+		<b_config>Gas</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="umk3.zip">
+		<name>Ultimate Mortal Kombat 3</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>mk3_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="vendettj.zip">
+		<name>Vendetta</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>beatup</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="topgun.zip">
+		<name>Vs. Top Gun</name>
+		<a_config>Fire</a_config>
+		<b_config>off</b_config>
+		<x_config>Missiles</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="wwfsstar.zip">
+		<name>Wwf Superstars</name>
+		<a_config>Punch/Kick</a_config>
+		<b_config>off</b_config>
+		<x_config>Kick/Grapple</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="wwfwfest.zip">
+		<name>Wwf Wrestlefest</name>
+		<a_config>Punch/Action</a_config>
+		<b_config>off</b_config>
+		<x_config>Kick/Action</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="wwfmania.zip">
+		<name>WWF: Wrestlemania</name>
+		<a_config>Punch</a_config>
+		<b_config>Kick</b_config>
+		<x_config>Defense</x_config>
+		<y_config>off</y_config>
+		<l_config>Power Punch</l_config>
+		<r_config>Power Kick</r_config>
+		<config_type>wwfmania</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="xmen.zip">
+		<name>X-men</name>
+		<a_config>attack</a_config>
+		<b_config>off</b_config>
+		<x_config>jump</x_config>
+		<y_config>off</y_config>
+		<l_config>Mutant Power</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="zaxxon.zip">
+		<name>Zaxxon</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>dshoot</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="armorcar.zip">
+		<name>Armored Car</name>
+		<a_config>Speed up</a_config>
+		<b_config>Sawhorse</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="centiped.zip">
+		<name>Centipede</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>dattack</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="digdug.zip">
+		<name>Dig Dug</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>dshoot</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="dkong.zip">
+		<name>Donkey Kong</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>djump</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="frogger.zip">
+		<name>Frogger</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>direc</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="galaga.zip">
+		<name>Galaga</name>
+		<a_config>off</a_config>
+		<b_config>Fire</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="gyruss.zip">
+		<name>Gyruss</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>dshoot</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mappy.zip">
+		<name>Mappy</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>mappy</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mspacman.zip">
+		<name>Ms. Pac-man</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>direc</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="vendetta.zip">
+		<name>Vendetta</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="nbajam.zip">
+		<name>NBA Jam</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>nba_jam_1_2</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="arcade_msh.zip">
+		<name>arcade_msh</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="10yard.zip">
+		<name>10-Yard Fight</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>10yard_fight</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="superman.zip">
+		<name>Superman</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>punch_kick</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="totcarn.zip">
+		<name>Total Carnage</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>smashtv</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="xmcota.zip">
+		<name>X-men - Children Of The Atom</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>sf2_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="xmvsfur2.zip">
+		<name>X-men Vs. Street Fighter</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>sf2_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="ddtod.zip">
+		<name>Dungeons And Dragons - Tower Of Doom</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>d_and_d_1_2</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="lightbr.zip">
+		<name>Light Bringer (Ver 2.2O 1994/04/08)</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>beat_em_up</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="prehisle.zip">
+		<name>Prehistoric Isle In 1930</name>
+		<a_config>Shoot</a_config>
+		<b_config>Gun Position</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="timber.zip">
+		<name>Timber</name>
+		<a_config>Chop Right</a_config>
+		<b_config>Chop Left</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mystwarr.zip">
+		<name>Mystic Warriors</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>beatup</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="altbeast.zip">
+		<name>Altered Beast</name>
+		<a_config>Jump</a_config>
+		<b_config>Punch</b_config>
+		<x_config>off</x_config>
+		<y_config>Kick</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="kchamp.zip">
+		<name>Karate Champ</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="starcas1.zip">
+		<name>Star Castle</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="tempest.zip">
+		<name>Tempest</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>dshoot</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	</system><system count="15" systemname="nes"><game filename="burgertime.zip">
+		<name>BurgerTime</name>
+		<a_config>NES A</a_config>
+		<b_config>NES B</b_config>
+		<x_config>NES Start</x_config>
+		<y_config>NES Select</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="double_dragon.zip">
+		<name>Double Dragon</name>
+		<a_config>Punch</a_config>
+		<b_config>off</b_config>
+		<x_config>Kick</x_config>
+		<y_config>off</y_config>
+		<l_config>Jump</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="double_dribble.zip">
+		<name>Double Dribble</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="excitebike.zip">
+		<name>Excitebike</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mike_tysons_punchout.zip">
+		<name>Mike Tyson's Punch-Out!!</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="pro_wrestling.zip">
+		<name>Pro Wrestling</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="rambo.zip">
+		<name>Rambo</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="ring_king.zip">
+		<name>Ring King</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="super_mario_bros_duck_hunt.zip">
+		<name>Super Mario Bros.</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="tecmo_bowl.zip">
+		<name>Tecmo Bowl</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="tecmo_super_bowl.zip">
+		<name>Tecmo Super Bowl</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mike_tyson_s_punchout.zip">
+		<name>Mike_Tyson_s_Punch-Out</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="bram_stokers_dracula.zip">
+		<name>Bram Stoker's Dracula</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="bump_n_jump.zip">
+		<name>Bump n Jump</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="kung_fu.zip">
+		<name>Kung Fu</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>burgertime_buttons</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="contra.zip">
+		<name>Contra</name>
+		<a_config>jump</a_config>
+		<b_config>shoot</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	</system><system count="3" systemname="sega32x"><game filename="after_burner_complete.zip">
+		<name>After Burner Complete</name>
+		<a_config>Fire</a_config>
+		<b_config>off</b_config>
+		<x_config>Missles</x_config>
+		<y_config>off</y_config>
+		<l_config>Throttle</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="star_wars_arcade.zip">
+		<name>Star Wars Arcade</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>star_wars_arcade</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="virtua_fighter.zip">
+		<name>Virtua Fighter</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>virtua_fighter</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	</system><system count="13" systemname="snes"><game filename="boxing_legends_of_the_ring.zip">
+		<name>Boxing Legends of the Ring </name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>boxing_legends_of_the_ring</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="final_fight_3.zip">
+		<name>Final Fight 3 (Virtual Console)</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>final_fight_3</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="knights_of_the_round.zip">
+		<name>Knights of the Round </name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>knights_of_the_round</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="madden_nfl_98.zip">
+		<name>Madden NFL 98 </name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>madden_nfl_98</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="marvel_super_heroes_in_war_of_the_gems.zip">
+		<name>Marvel Super Heroes in War of the Gems </name>
+		<a_config>Jump</a_config>
+		<b_config>Cancel</b_config>
+		<x_config>Special Ability</x_config>
+		<y_config>Attack</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="nba_live_98.zip">
+		<name>NBA Live 98 </name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>nba_live_98</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="nhl_98.zip">
+		<name>NHL 98 </name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>nhl_98</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="phalanx.zip">
+		<name>Phalanx </name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>phalanx</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="scoobydoo_mystery.zip">
+		<name>Scooby-Doo Mystery </name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>scoobydoo_mystery</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="super_mario_kart.zip">
+		<name>Super Mario Kart </name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>super_mario_kart</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="toy_story.zip">
+		<name>Toy Story </name>
+		<a_config>Lasso</a_config>
+		<b_config>Jump/Release</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="xmen_mutant_apocalypse.zip">
+		<name>X-Men : Mutant Apocalypse </name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>Attack</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="batman_returns.zip">
+		<name>Batman Returns </name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>batman_returns</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	</system><system count="11" systemname="gba"><game filename="1708_thats_so_raven.zip">
+		<name>That's So Raven</name>
+		<a_config>Gameboy A</a_config>
+		<b_config>Gameboy B</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>Start</l_config>
+		<r_config>Select</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="astro_boy_omega_factor.zip">
+		<name>Astro Boy : Omega Factor</name>
+		<a_config>Gameboy A</a_config>
+		<b_config>Gameboy B</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>Start</l_config>
+		<r_config>Select</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="1266_double_dragon_advance.zip">
+		<name>Double Dragon Advance</name>
+		<a_config>Gameboy A</a_config>
+		<b_config>Gameboy B</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>Start</l_config>
+		<r_config>Select</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="dragon_ball_z_the_legacy_of_goku_i_&amp;_ii.zip">
+		<name>Dragon Ball Z - The Legacy of Goku I &amp; II</name>
+		<a_config>Gameboy A</a_config>
+		<b_config>Gameboy B</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>Start</l_config>
+		<r_config>Select</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="dragon_ball_z_supersonic_warriors.zip">
+		<name>Dragon Ball Z : Supersonic Warriors</name>
+		<a_config>Gameboy A</a_config>
+		<b_config>Gameboy B</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>Start</l_config>
+		<r_config>Select</r_config>
+		<config_type>none</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="gunstar_super_heroes.zip">
+		<name>Gunstar Super Heroes</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>gameboy</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="iridion_ii.zip">
+		<name>Iridion II</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>gameboy</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="lady_sia.zip">
+		<name>Lady Sia</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>gameboy</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="mario_kart_super_circuit.zip">
+		<name>Mario Kart : Super Circuit</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>gameboy</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="scurge_hive.zip">
+		<name>Scurge : Hive</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>gameboy</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	<game filename="1085_dragon_ball_z_the_legacy_of_goku_ii.zip">
+		<name>Dragon Ball Z : The Legacy of Goku 2</name>
+		<a_config>off</a_config>
+		<b_config>off</b_config>
+		<x_config>off</x_config>
+		<y_config>off</y_config>
+		<l_config>off</l_config>
+		<r_config>off</r_config>
+		<config_type>gameboy</config_type>
+	<directional><type>none</type><up /><down /><left /><right /></directional><image>none</image><custom_file_created>true</custom_file_created><has34>no</has34></game>
+	</system></Button_Config>

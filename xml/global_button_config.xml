@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Global_Config>
+<configuration>
+	<typename>dpunch</typename>
+	<a_config>off</a_config>
+	<b_config>Punch</b_config>
+	<x_config>off</x_config>
+	<y_config>off</y_config>
+	<l_config>off</l_config>
+	<r_config>off</r_config>
+	<directional>
+		<type>both</type>
+		<up />
+		<down />
+		<left />
+		<right />
+	</directional>
+	<custom_file_created>false</custom_file_created>
+</configuration>
+<configuration>
+	<typename>mortal_kombat2</typename>
+	<a_config>Low punnch</a_config>
+	<b_config>Low Kick</b_config>
+	<x_config>Med Punch</x_config>
+	<y_config>Med Kick</y_config>
+	<l_config>high punch</l_config>
+	<r_config>high kick</r_config>
+	<directional>
+		<type>both</type>
+		<up>jump</up>
+		<right>run</right>
+		<down>back up</down>
+		<left>duck</left>
+	</directional>
+	<custom_file_created>false</custom_file_created>
+</configuration>
+</Global_Config>
