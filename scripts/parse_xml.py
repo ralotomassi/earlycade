@@ -353,29 +353,30 @@ def addGamesToRoot(root,filelist,system_name):
 			game_element = et.SubElement(system_element,"game", filename = zipname)
 			name_element = et.SubElement(game_element,"name")
 			name_element.text = game_title
-			buttona = et.SubElement(game_element,"a_config")
-			buttona.text = "off"
 
-			buttonb = et.SubElement(game_element,"b_config")
-			buttonb.text = "off"
+			#set up the default button values
+			buttons = [
+				"off",
+				"off",
+				"off",
+				"off",
+				"off",
+				"off"
+			]
 
-			buttonx = et.SubElement(game_element,"x_config")
-			buttonx.text = "off"
-
-			buttony = et.SubElement(game_element,"y_config")
-			buttony.text = "off"
-
-			buttonl = et.SubElement(game_element,"l_config")
-			buttonl.text = "off"
-
-			buttonr = et.SubElement(game_element,"r_config")
-			buttonr.text = "off"
+			#add the button configuration to the element
+			game_element = addButtonConfigurationToElement(game_element,buttons)
 
 			buttonConfigType = et.SubElement(game_element,"config_type")
 			buttonConfigType.text = "none"
 
-			buttonConfigType = et.SubElement(game_element,"directional")
-			buttonConfigType.text = "none"
+			joysticks = [
+							"",
+							"",
+							"",
+							""
+						]
+			game_element = addDirectionalConfigToElement(game_element,joysticks,"none")
 
 			buttonConfigType = et.SubElement(game_element,"image")
 			buttonConfigType.text = "none"
